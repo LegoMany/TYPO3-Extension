@@ -1,0 +1,27 @@
+{
+  "name": "in2code/extension",
+  "description": "",
+  "type": "typo3-cms-extension",
+  "homepage": "https://www.in2code.de",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "in2code GmbH",
+      "email": "service@in2code.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "11.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "In2code\\Extension\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "extension"
+    }
+  }
+}
