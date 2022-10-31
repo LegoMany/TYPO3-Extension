@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <sheets>
+        <settings>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>
+                        LLL:EXT:extension/Resources/Private/Language/Backend/locallang.xlf:plugin.flexform.title
+                    </sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.field>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:extension/Resources/Private/Language/Backend/locallang.xlf:plugin.flexform.field
+                            </label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                            </config>
+                        </TCEforms>
+                    </settings.field>
+                </el>
+            </ROOT>
+        </settings>
+    </sheets>
+</T3DataStructure>
