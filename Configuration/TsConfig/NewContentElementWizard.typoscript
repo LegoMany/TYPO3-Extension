@@ -1,0 +1,17 @@
+mod.wizards {
+  newContentElement.wizardItems {
+    plugins {
+      elements {
+        extension_pluginname {
+          title = LLL:EXT:extension/Resources/Private/Language/Backend/locallang.xlf:plugin.pluginname.title
+          description = LLL:EXT:extension/Resources/Private/Language/Backend/locallang.xlf:plugin.pluginname.description
+          iconIdentifier = extension-icon
+          tt_content_defValues {
+            CType = list
+            list_type = extension_pluginname
+          }
+        }
+      }
+    }
+  }
+}
